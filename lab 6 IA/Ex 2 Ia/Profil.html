@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Ordace Ionut-Vasile</title>
+<script>
+function myFunction() {
+ document.getElementById("nume").innerHTML ="Ordace, Antreprenor, Persoana Publica";
+document.getElementById("viitor").innerHTML ="Absolvent al AC/ETTI";
+ document.getElementById("viitor2").innerHTML ="Detinator al lanturilor de Agropensiuni Maria.";
+ document.getElementById("viitor3").innerHTML ="CEO of NTT DATA.";
+ document.getElementById("poza").src="cg.jpg";
+ document.getElementById("poza").style.opacity = "0.5";
+ document.getElementById("plic").innerHTML ="";
+ document.getElementById("plic2").innerHTML ="";
+ document.getElementById("plic3").innerHTML ="";
+ document.getElementById("reusite").innerHTML ="Realizarile respectivului sunt: ";
+ document.getElementById("office").innerHTML ="Pentru servicii, trimite un email";
+ document.getElementById("office1").innerHTML ="ordcaeinfo2020@email.com";
+ document.body.style.backgroundImage="url('cn5.jpg')";
+ document.getElementById("statut").innerHTML ="Cea mai recenta aparitie in revista: ";
+ document.getElementById("iof").innerHTML ="Instagram Oficial";
+ document.getElementById("hb").innerHTML ="Planuri de viitor: ";
+ document.getElementById("pln1").innerHTML ="Construire Azil de Batrani";
+ document.getElementById("pln2").innerHTML ="Renovare Sptal Judetean";
+ document.getElementById("pln3").innerHTML ="Lansare de carte ";
+ document.getElementById("pln4").innerHTML ="Vacanta in Maldive";
+ document.getElementById("viitor").style.backgroundColor = "gray";
+ document.getElementById("viitor2").style.backgroundColor = "gray";
+ document.getElementById("viitor3").style.backgroundColor = "gray";
+ document.getElementById("pnk").style.backgroundColor = "gray";
+ document.getElementById("pln1").style.backgroundColor = "red";
+ document.getElementById("pln2").style.backgroundColor = "red";
+ document.getElementById("pln3").style.backgroundColor = "red";
+ document.getElementById("pln4").style.backgroundColor = "red";
+  document.getElementById("ulk").style.backgroundColor = "red";
+  document.getElementById("office").style.fontFamily = "Impact,Charcoal,sans-serif";
+ document.getElementById("iof").style.fontFamily = "Impact,Charcoal,sans-serif";
+ document.getElementById("cr").style.fontFamily = "Impact,Charcoal,sans-serif";
+ document.getElementById("reusite").style.fontFamily = "Impact,Charcoal,sans-serif";
+  }
+  function arVarst(){
+          var azi = new Date();
+          var anNasc =document.getElementById("varsta").innerHTML;
+          varstMea = azi.getFullYear() -parseInt(anNasc);
+          document.getElementById("varsta").innerHTML=varstMea;
+
+  }
+  
+  
+</script>
+</head>
+<body>
+<a href="Cuprins.html"><h3>Înapoi cuprins</h3></a>
+<h1 id= "nume">Ordace Ionuț-Vasile</h1>
+<button type="button" onclick="myFunction()">Alta viata</button>
+<p id ="statut">UTCN-ETTI</p>
+<p onmouseover="arVarst()" id="varsta"> 2003 </p>
+<p id ="img"><img id="poza" src="poza.jpg" width="250" height="250" ></p>
+<p><h2 id ="office">Email:</h2></p><p><h3 id ="office1"> ionutvasile1502@gmail.com</h3></p>
+<p><h2 id ="iof">Instagram:</h2></p><p><h3>ionutordace</h3></p>
+<p><h2 if ="cr">Citat Reprezentativ:<h2></p><p><h3>"Succesul este atins cel mai adesea de cei care nu stiu ca esecul este inevitabil."</h3></p>
+<p id ="reusite">Universitatea Tehnica din Cluj-Napoca, anul I, discipline:</p>
+<table id="pnk">
+  <tr>
+    <td id= "viitor">Informatica Aplicata</td>
+	<td id= "plic"><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/01.pdf">Analiza Matematica</a></td>
+  </tr>
+  <tr>
+    <td id= "viitor2">Programarea Calculatoarelor si limbaje de programare</td>
+	<td id= "plic2"><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/04.pdf">Programarea Calculatoarelor si limbaje de programare</a></td>
+  </tr>
+  <tr>
+    <td id= "viitor3">Analiza Matematica</td>
+	<td id= "plic3"><a href="https://etti.utcluj.ro/files/FiseDisciplina/TstRo/06.pdf">Informatica Aplicata</a></td>
+  </tr>
+</table>
+<P><h2 id="hb">Hobby-uri:</h2></p>
+ <ul id ="ulk">
+  <li id="pln1">Citit</li>
+  <li id ="pln2">Antreprenoriat</li>
+  <li id ="pln3">Înot</li>
+  <li id ="pln4">Meditație</li>
+</ul>
+</body>
+</html>
+
+
+
